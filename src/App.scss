@@ -1,0 +1,48 @@
+* 
+{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+nav 
+{
+    padding: 20px; 
+
+    ul 
+    {
+        display: flex;
+        justify-content: space-around; 
+        list-style-type: none;
+    
+        li a
+        {
+            color: #000; 
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.hl
+{
+    display: grid; 
+    place-content: center;
+}
+
+.weather 
+{
+    display: grid; 
+    place-content: center;
+    padding: 2rem;
+
+    input 
+    {
+        margin: 2rem 0;
+    }
+
+    p 
+    {
+        padding: 5px 0;
+    }
+}
